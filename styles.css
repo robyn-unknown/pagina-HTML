@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0f7fa; /* Color de fondo cambiado */
+  color: #333;
+  text-align: center; /* Centrar texto */
+}
+
+header {
+  background: #00796b; /* Color de encabezado cambiado */
+  color: white;
+  padding: 20px;
+}
+
+nav {
+  margin: 20px 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: inline-block; /* Para centrar el contenedor */
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #333;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .container {
+      width: 95%;
+  }
+
+  nav a {
+      display: block;
+      margin: 10px 0;
+  }
+}
